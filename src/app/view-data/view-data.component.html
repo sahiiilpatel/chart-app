@@ -1,0 +1,6 @@
+<div *ngIf="dataAvailable; else noDataMessage">
+    <canvas id="myChart" width="400" height="100"></canvas>
+</div>
+<ng-template #noDataMessage>
+    <p>No data available to display the chart. Please add data in the form first.</p>
+</ng-template>

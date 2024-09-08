@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px; // Add padding around the container
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 800px; // Limit the maximum width of the form
+}
+
+.entries-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; // Space between form entries
+}
+
+.entry-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; // Space between fields in a single entry
+}
+
+mat-form-field {
+  width: 100%; // Ensure form fields take up the full width of their container
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; // Space above the buttons
+  gap: 10px; // Space between buttons
+}

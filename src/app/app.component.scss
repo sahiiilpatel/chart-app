@@ -1,0 +1,29 @@
+.example {
+    overflow: hidden;
+    width: auto;
+    height: 100vh;
+    
+    mat-tab-group {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+  
+      mat-tab {
+        flex: 1;
+        overflow: hidden;
+  
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+  
+  .example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .example {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }  
